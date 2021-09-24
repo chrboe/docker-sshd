@@ -1,0 +1,8 @@
+LogLevel INFO
+
+PubkeyAuthentication yes
+AuthorizedKeysFile /authorized_keys
+PermitRootLogin yes
+
+PasswordAuthentication no
+PermitEmptyPasswords no

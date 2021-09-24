@@ -1,7 +1,7 @@
 FROM alpine
 
 RUN apk update && \
-    apk add openssh && \
+    apk add openssh bash && \
     mkdir -p ~root/.ssh && chmod 700 ~root/.ssh/ && \
     ssh-keygen -A && \
     passwd -u root && \
